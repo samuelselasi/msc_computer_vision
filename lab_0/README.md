@@ -16,8 +16,9 @@ This project demonstrates basic image processing using OpenCV in Python 3 on Ubu
 
 Install OpenCV using:
 
-```bash
+```
 pip install opencv-python
+```
 
 ## How to Run
 
