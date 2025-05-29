@@ -33,6 +33,21 @@ python3 edge_detection.py
 3. Press any key in the image window to close it.
 
 
+## Results
+
+* Original Image:
+  
+![Original Image_screenshot_29 05 2025](https://github.com/user-attachments/assets/6535edb0-5b48-4f64-aad0-aa0464f8fbfe)
+
+* Grayscale Image:
+  
+![Grayscale Image_screenshot_29 05 2025](https://github.com/user-attachments/assets/c69348c9-95bc-4535-81ee-d8337a8557ce)
+
+* Edge Detection Image:
+
+  ![Edge Detected Image_screenshot_29 05 2025](https://github.com/user-attachments/assets/3fd868ce-7625-4a1d-b474-e3c98b5a6bc1)
+
+
 ## Files
 
 * [edge_detection.py](./edge_detection.py): Python script for image processing.
