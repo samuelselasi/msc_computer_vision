@@ -1,8 +1,8 @@
-# Assignment 1 - Filterig
+# Assignment 1 - Filtering
 
-## 1. Add noise to some images
-## 2. Remove the noise using different filters
-## 3. Load image, detect the edges using `Robert`, `Sobel`, `Prewitt`, `Canny` and `2nd Derivative` filters
+### 1. Add noise to some images
+### 2. Remove the noise using different filters
+### 3. Load image, detect the edges using `Robert`, `Sobel`, `Prewitt`, `Canny` and `2nd Derivative` filters
 
 # Introduction
 
@@ -17,6 +17,13 @@ and how edge detectors respond to both clean and noisy data.
 The experiment uses a grayscale image named [input.jpeg](./input.jpeg) 
 processed in a Python environment using Ubuntu 20.4
 
+Original Image:
+![input](https://github.com/user-attachments/assets/41a7f0d9-f507-47cc-9755-a0d98bc40772)
+
+Grayscale Image:
+![Grayscale Image_screenshot_22 06 2025](https://github.com/user-attachments/assets/46525316-67ef-41d8-b3c7-fe1cadb8d44c)
+
+
 
 # Methodology
 
@@ -30,6 +37,9 @@ pixels to simulate dead pixels or transmission errors.
 2. **Gaussian Noise**: Adds small random variations in pixel 
 intensity to simulate sensor noise or low lighting.
 
+Noise Images:
+![snp gaussian-noise](https://github.com/user-attachments/assets/2ee56def-c5cd-4e33-a1ba-260b5f6e19c7)
+
 
 ## Denoising Using Filters
 
@@ -41,6 +51,10 @@ three different filters were tested:
 2. **Gaussian Filter**: Best suited for Gaussian noise.
 
 3. **Mean (Averaging) Filter**: Provides basic smoothing but may blur image details.
+
+Denoising:
+![removing-filters](https://github.com/user-attachments/assets/4e05fe43-f858-430e-b760-62ec6684ca20)
+
 
 
 # Edge Detection Techniques
@@ -54,6 +68,11 @@ three different filters were tested:
 4. **Canny**: A *multi-stage* edge detector that includes gradient computation and edge linking.
 
 5. **Laplacian**: Computes the *second derivative* of the image to identify rapid intensity changes.
+
+
+Edge Detection Techniques:
+![edge-detection-techniques](https://github.com/user-attachments/assets/16235d3c-faf3-483b-95ed-d1aba87cff7d)
+
 
 
 # Results and Observations
