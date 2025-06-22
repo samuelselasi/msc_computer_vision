@@ -19,11 +19,13 @@ processed in a Python environment using Ubuntu 20.4
 
 
 Original Image:
+
 ![input](https://github.com/user-attachments/assets/41a7f0d9-f507-47cc-9755-a0d98bc40772)
 
 
 
 Grayscale Image:
+
 ![Grayscale Image_screenshot_22 06 2025](https://github.com/user-attachments/assets/46525316-67ef-41d8-b3c7-fe1cadb8d44c)
 
 
