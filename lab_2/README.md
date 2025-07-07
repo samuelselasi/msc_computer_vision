@@ -68,11 +68,22 @@ python3 surf.py
 ## Output
 
 - Image 1: Original
+
+![original](https://github.com/user-attachments/assets/0d3f2400-c5a3-4874-b8e6-192d75de84e6)
+ 
 - Image 2: Transformed (rotated, scaled, warped, darkened)
+
+![transformed](https://github.com/user-attachments/assets/ff9acac9-b77d-46fc-ace5-fab30d1c3f1e)
+  
 - Visuals:
   - Keypoints on both images
+
+![Key_Points](https://github.com/user-attachments/assets/6a4419ab-0dcd-4aab-83ab-93375a47c143)
+
   - Top 50 feature matches with lines
 
+![Feature_Matching](https://github.com/user-attachments/assets/be3a757d-8b6d-4927-9933-aff5089909d2)
+ 
 ---
 
 ## Notes
