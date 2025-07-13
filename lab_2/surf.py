@@ -47,6 +47,36 @@ if len(matches) == 0:
 
 # === STEP 5: Visualization ===
 
+# === VISUALIZE: Color and Grayscale Comparisons ===
+# A. Original vs Transformed (Color)
+plt.figure(figsize=(10, 5))
+plt.subplot(1, 2, 1)
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+plt.title("Original (Color)")
+plt.axis('off')
+
+plt.subplot(1, 2, 2)
+plt.imshow(cv2.cvtColor(transformed, cv2.COLOR_BGR2RGB))
+plt.title("Transformed (Color)")
+plt.axis('off')
+plt.tight_layout()
+plt.show()
+
+# B. Grayscale Original vs Transformed
+plt.figure(figsize=(10, 5))
+plt.subplot(1, 2, 1)
+plt.imshow(img1, cmap='gray')
+plt.title("Original (Grayscale)")
+plt.axis('off')
+
+plt.subplot(1, 2, 2)
+plt.imshow(img2, cmap='gray')
+plt.title("Transformed (Grayscale)")
+plt.axis('off')
+plt.tight_layout()
+plt.show()
+
+
 # A. Show original and transformed images
 plt.figure(figsize=(10, 5))
 plt.subplot(1, 2, 1)
